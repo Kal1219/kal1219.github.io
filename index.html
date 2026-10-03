@@ -1,25 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-
-    <title>Kaleb Cortés | Software & Game Developer</title>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Kaleb Cortés, Software Developer, Full-Stack Developer, Unity Game Developer y Content Creator en Ciudad de México.">
+  <meta name="theme-color" content="#090909">
+  <meta property="og:type" content="website"><meta property="og:title" content="Kaleb Cortés | Software &amp; Game Developer">
+  <meta property="og:description" content="Desarrollo software, experiencias web y videojuegos con enfoque en sistemas sólidos y experiencias memorables.">
+  <meta property="og:url" content="https://kal1219.github.io/">
+  <meta property="og:image" content="https://kal1219.github.io/assets/images/Trailer_Juego_Diplomado-Thumbnail.jpg">
+  <meta property="og:image:alt" content="No deberías estar aquí - psychological horror game">
+  <title>Kaleb Cortés | Software &amp; Game Developer</title>
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
 </head>
-
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" data-header><nav class="nav container" aria-label="Navegación principal">
+    <a class="brand" href="#inicio" aria-label="Kaleb Cortés, inicio">KC</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú" data-nav-toggle><span></span><span></span><span></span></button>
+    <div class="nav-menu" id="nav-menu" data-nav-menu><a href="#inicio">Inicio</a><a href="#juego">Juego</a><a href="#sobre-mi">Sobre mí</a><a href="#skills">Skills</a><a href="#proyectos">Proyectos</a><a href="#streaming">Streaming</a><a href="#cv">CV</a><a href="#contacto">Contacto</a></div>
+  </nav></header>
+  <main id="contenido">
+    <section class="hero section" id="inicio" aria-labelledby="hero-title"><div class="container hero-grid"><div class="hero-copy">
+      <p class="eyebrow">Software · Videojuegos · Full-Stack</p><h1 id="hero-title">Kaleb <span>Cortés</span></h1>
+      <p class="hero-roles">Software Developer<br>Game Developer<br>Full-Stack Developer</p><p class="hero-secondary">Streamer &amp; Content Creator</p>
+      <p class="hero-intro">Construyo experiencias digitales en la intersección entre software, videojuegos y contenido.</p>
+      <div class="button-row"><a class="button primary" href="https://kal1219.itch.io/no-deberias-estar-aqui" target="_blank" rel="noopener noreferrer">Ver mi juego ↗</a><a class="button secondary" href="#cv">Ver CV</a></div>
+      <div class="text-links"><a href="https://github.com/Kal1219" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.twitch.tv/kal1219" target="_blank" rel="noopener noreferrer">Twitch ↗</a></div>
+    </div><div class="hero-mark" aria-hidden="true">KC</div></div></section>
 
-    <main>
-        <h1>Kaleb Cortés</h1>
+    <section class="section featured" id="juego" aria-labelledby="game-title"><div class="container"><header class="section-heading"><p class="eyebrow">Proyecto destacado</p><h2 id="game-title">No deberías estar aquí</h2></header>
+      <article class="featured-card"><div class="featured-media"><img src="assets/images/Trailer_Juego_Diplomado-Thumbnail.jpg" alt="No deberías estar aquí - psychological horror game" width="1280" height="720" loading="lazy"></div><div class="featured-content">
+        <p class="project-type">Psychological Horror / Survival / Stealth</p><p>Videojuego de horror psicológico desarrollado en Unity. Una experiencia de tensión y sigilo construida alrededor de sistemas de interacción, comportamiento enemigo y exploración.</p>
+        <ul class="tags" aria-label="Tecnologías del proyecto"><li>Unity</li><li>C#</li><li>NavMesh</li><li>State Machines</li><li>AI</li><li>Input System</li><li>Animation</li></ul>
+        <a class="button primary" href="https://kal1219.itch.io/no-deberias-estar-aqui" target="_blank" rel="noopener noreferrer">Ver en itch.io ↗</a>
+      </div></article>
+      <div class="trailer-block">
+        <div class="trailer-heading"><div><p class="eyebrow">Video</p><h3>Trailer oficial</h3><p>Conoce un vistazo a la experiencia de <cite>No deberías estar aquí</cite>.</p></div><a class="button quiet" href="https://youtu.be/3AMQa_yhcA4" target="_blank" rel="noopener noreferrer">Ver en YouTube ↗</a></div>
+        <div class="trailer-video"><iframe src="https://www.youtube-nocookie.com/embed/3AMQa_yhcA4" title="Trailer de No deberías estar aquí" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      </div>
+    </div></section>
 
-        <h2>Software Developer · Game Developer</h2>
+    <section class="section" id="sobre-mi" aria-labelledby="about-title"><div class="container about-grid"><header class="section-heading"><p class="eyebrow">Sobre mí</p><h2 id="about-title">Código, sistemas y experiencias.</h2></header><div class="about-copy">
+      <p>Soy Software Developer junior con formación en Matemáticas Aplicadas y Computación en la UNAM FES Acatlán. Desarrollo productos Full-Stack, aplicaciones iOS y videojuegos.</p>
+      <p>Mi experiencia como mentor de desarrollo iOS y en roles orientados a clientes fortaleció mi capacidad para comunicar, enseñar y resolver problemas en equipo. También creo contenido de gaming en Twitch.</p>
+      <dl class="highlights"><div><dt>Enfoque</dt><dd>Software &amp; Game Development</dd></div><div><dt>Formación</dt><dd>UNAM FES Acatlán</dd></div><div><dt>Ubicación</dt><dd>Ciudad de México</dd></div></dl>
+    </div></div></section>
 
-        <p>
-            Bienvenido a mi portafolio.
-        </p>
-    </main>
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title"><div class="container"><header class="section-heading"><p class="eyebrow">Tech stack</p><h2 id="skills-title">Herramientas para construir de principio a fin.</h2></header><div class="skills-grid">
+      <article class="skill"><h3>Languages</h3><ul class="tags"><li>JavaScript</li><li>TypeScript</li><li>Swift</li><li>Python</li><li>C#</li><li>C/C++</li><li>SQL</li></ul></article>
+      <article class="skill"><h3>Frontend</h3><ul class="tags"><li>React</li><li>Vite</li><li>HTML</li><li>CSS</li><li>SwiftUI</li></ul></article>
+      <article class="skill"><h3>Backend &amp; Data</h3><ul class="tags"><li>Node.js</li><li>REST APIs</li><li>PostgreSQL</li><li>MongoDB</li><li>SQL</li></ul></article>
+      <article class="skill"><h3>Game Development</h3><ul class="tags"><li>Unity</li><li>C#</li><li>Input System</li><li>Animator</li><li>NavMesh</li><li>State Machines</li></ul></article>
+      <article class="skill"><h3>Tools</h3><ul class="tags"><li>Git</li><li>GitHub</li><li>VS Code</li><li>Unity</li><li>Xcode</li><li>LaTeX</li></ul></article>
+    </div></div></section>
 
+    <section class="section" id="proyectos" aria-labelledby="projects-title"><div class="container"><header class="section-heading"><p class="eyebrow">Otros proyectos</p><h2 id="projects-title">Productos con propósito.</h2></header><div class="projects-grid">
+      <article class="project"><span>01</span><h3>CreatorOps Hub</h3><p>Plataforma Full-Stack para centralizar herramientas y workflows de creadores de contenido.</p><ul class="tags"><li>React</li><li>TypeScript</li><li>Node.js</li><li>PostgreSQL</li></ul></article>
+      <article class="project"><span>02</span><p class="award">1st Place — iOS Hackathon, FES Acatlán</p><h3>PokeTrash</h3><p>Aplicación iOS que convierte el reciclaje en una experiencia gamificada.</p><ul class="tags"><li>SwiftUI</li><li>iOS</li></ul></article>
+      <article class="project"><span>03</span><h3>iShare</h3><p>Aplicación y prototipo de seguridad personal con ubicación en tiempo real.</p><ul class="tags"><li>SwiftUI</li><li>GPS</li></ul></article>
+      <article class="project"><span>04</span><h3>InterMed+</h3><p>Prototipo de historial médico digital diseñado para acceso claro y práctico.</p><ul class="tags"><li>SwiftUI</li><li>iOS</li></ul></article>
+    </div></div></section>
+
+    <section class="section section-alt" id="streaming" aria-labelledby="stream-title"><div class="container streaming-grid"><div class="streaming-photo"><img src="assets/images/kaleb-twitch.jpg" alt="Kaleb Cortés durante una transmisión de gaming en Twitch" width="3456" height="4608" loading="lazy"></div><div><p class="eyebrow">Comunicación &amp; gaming</p><h2 id="stream-title">Streaming &amp; Content Creation</h2><p>También realizo transmisiones y contenido alrededor del gaming. Es un espacio donde pongo en práctica comunicación frente a audiencia, creatividad y la capacidad de explicar y entretener en tiempo real.</p><div class="button-row"><a class="button primary" href="https://www.twitch.tv/kal1219" target="_blank" rel="noopener noreferrer">Ver canal en Twitch ↗</a></div></div></div></section>
+
+    <section class="section" id="cv" aria-labelledby="cv-title"><div class="container cv-card"><div><p class="eyebrow">Experiencia &amp; formación</p><h2 id="cv-title">Curriculum Vitae</h2><p>Disponible en español e inglés.</p></div><div class="cv-actions"><a class="button primary" href="assets/cv/CV_2026_Español.pdf" target="_blank" rel="noopener noreferrer" download>CV Español ↓</a><a class="button secondary" href="assets/cv/CV_2026_English.pdf" target="_blank" rel="noopener noreferrer" download>Resume English ↓</a></div></div></section>
+
+    <section class="section contact" id="contacto" aria-labelledby="contact-title"><div class="container contact-grid"><div><p class="eyebrow">Contacto</p><h2 id="contact-title">Construyamos algo que valga la pena.</h2></div><div><p>Estoy abierto a oportunidades laborales, colaboraciones, proyectos de software o videojuegos y networking dentro de gaming y creación de contenido.</p><div class="contact-links"><a href="mailto:kaleb.cortes1208@gmail.com"><span>Email</span><strong>kaleb.cortes1208@gmail.com</strong></a><a href="https://github.com/Kal1219" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>@Kal1219 ↗</strong></a><a href="https://mx.linkedin.com/in/kaleb1219" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>kaleb1219 ↗</strong></a><a href="https://www.twitch.tv/kal1219" target="_blank" rel="noopener noreferrer"><span>Twitch</span><strong>@kal1219 ↗</strong></a></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="container"><p>© 2026 Kaleb Cortés Mejía</p></div></footer>
 </body>
 </html>
